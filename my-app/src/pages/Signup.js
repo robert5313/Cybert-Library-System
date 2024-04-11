@@ -16,10 +16,25 @@ const Signup = () => {
         />
       </div>
       {/* text to the right */}
-      <div className="pl-64 justify-center pt-56 font-serif">
+      <div className="pl-64 justify-center pt-36 font-serif">
         <h1 className="font-bold text-6xl">Sign In</h1>
         <p className="font-normal text-lg pt-2">We love our clients</p>
         <form className="flex flex-col mt-12 ">
+        <div className="mb-6">
+            <label
+              htmlFor="Full Name"
+              className="text-white mb-2 block text-sm font-medium"
+            >
+              Full Name
+            </label>
+            <input
+              type="Full Name"
+              id="Full Name"
+              required
+              className="bg-[#18191E] border pl-3 w-full border-[#33353F] placeholder-[#9CA2A9] text-gray  text-lg rounded-lg sm:w-[300px] lg:w-[670px] pt-2.5"
+              placeholder="Full Name"
+            />
+          </div>
           <div className="mb-6">
             <label
               htmlFor="email"
@@ -63,11 +78,17 @@ const Signup = () => {
 
           <button
             type="submit"
-            className="  bg-gray-200 hover:bg-white text-black font-medium py-2.5 rounded-lg sm:w-[300px] lg:w-[670px] "
+            className="  bg-blue-500 hover:bg-white text-black font-medium py-2.5 rounded-lg sm:w-[300px] lg:w-[670px] "
           >
             Create Account
           </button>
         </form>
+        <p class="text-gray-600 pt-8">
+          Already have an account?
+          <a href="LogIn" class="font-bold text-white hover:text-blue-600 pl-2">
+            LogIn
+          </a>{" "}
+        </p>
       </div>
     </div>
   );
