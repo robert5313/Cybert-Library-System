@@ -24,7 +24,7 @@ const LogIn = () => {
             type="email"
             id="email"
             required
-            className="bg-white border pl-3 w-full border-black placeholder-black text-white  text-lg rounded-lg sm:w-[300px] lg:w-96 pt-2.5"
+            className="bg-white border pl-3 w-full border-black placeholder-black text-white  text-lg rounded-lg sm:w-[300px] lg:w-[428px] pt-2.5"
             placeholder="Your E-mail"
           />
         </div>
@@ -39,12 +39,12 @@ const LogIn = () => {
             type="password"
             id="password"
             required
-            className="bg-white border pl-3 w-full border-black placeholder-black text-gray  text-lg rounded-lg sm:w-[300px] lg:w-96 pt-2.5"
+            className="bg-white border pl-3 w-full border-black placeholder-black text-gray  text-lg rounded-lg sm:w-[300px] lg:w-[428px] pt-2.5"
             placeholder="Your Password"
           />
         </div>
         <div className="  pl-2">
-          <button class="mt-4  bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-40  rounded-xl justify-center items-center ">
+          <button class="mt-4  bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-40 lg:w-[428px]  rounded-xl justify-center items-center ">
             LogIn
           </button>
         </div>

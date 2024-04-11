@@ -17,7 +17,7 @@ const Signup = () => {
       </div>
       {/* text to the right */}
       <div className="pl-64 justify-center pt-36 font-serif">
-        <h1 className="font-bold text-6xl">Sign In</h1>
+        <h1 className="font-bold text-6xl">Sign Up</h1>
         <p className="font-normal text-lg pt-2">We love our clients</p>
         <form className="flex flex-col mt-12 ">
         <div className="mb-6">
