@@ -9,7 +9,10 @@ const LogIn = () => {
         <h2 class="font-bold text-3xl mb-2 pt-10 ">Welcome Back</h2>
         <p class="text-gray-600">
           Don't have an account yet?
-          <a href="Signup" class="font-bold text-white hover:text-blue-600 pl-2">
+          <a
+            href="Signup"
+            class="font-bold text-white hover:text-blue-600 pl-2"
+          >
             Sign up
           </a>{" "}
         </p>
