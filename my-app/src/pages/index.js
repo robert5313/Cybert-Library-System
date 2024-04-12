@@ -26,10 +26,23 @@ export default function Home() {
           </h1>
           <p className="pt-4">
             Our new library is a game-changer, offering innovative solutions for
-            developers. With its user-friendly interface and robust features, it
-            simplifies complex tasks and enhances productivity significantly.
+            developers.<br/> With its user-friendly interface and robust features, it
+            simplifies complex tasks <br/>and enhances productivity significantly.
           </p>
+          <div className="flex">
+          <div className="pt-4 ">
+                <button className="rounded-lg pt-3 pb-3 pr-5 pl-5 bg-black justify-center items-center whitespace-nowrap ">
+                  Sign Up
+                </button>
+              </div>
+              <div className="pt-4 pl-4 ">
+                <button className="rounded-lg pt-3 pb-3 pr-5 pl-5 bg-black justify-center items-center whitespace-nowrap ">
+                 Log In
+                </button>
+              </div>
+              </div>
         </div>
+       
 
         {/* image to the right */}
         <div className="pl-56 pt-14 pb-24">
