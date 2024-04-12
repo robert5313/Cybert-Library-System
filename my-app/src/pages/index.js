@@ -32,12 +32,12 @@ export default function Home() {
           <div className="flex">
           <div className="pt-4 ">
                 <button className="rounded-lg pt-3 pb-3 pr-5 pl-5 bg-black justify-center items-center whitespace-nowrap ">
-                  Sign Up
+                 <a href=" Signup"> Sign Up</a>
                 </button>
               </div>
               <div className="pt-4 pl-4 ">
                 <button className="rounded-lg pt-3 pb-3 pr-5 pl-5 bg-black justify-center items-center whitespace-nowrap ">
-                 Log In
+                 <a href="LogIn" >Log In</a>
                 </button>
               </div>
               </div>
@@ -48,7 +48,7 @@ export default function Home() {
         <div className="pl-56 pt-14 pb-24">
           <Image
             src={Book4}
-            width={500}
+            width={420}
             height={480}
             className=" rounded-full object-cover"
             alt="books image"
