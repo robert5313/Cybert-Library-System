@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <section id="firstSection" className="flex min-h-screen flex-col  font-serif justify-between p-10  bg-gradient-to-r from-black to-green-500">
+      {/* home */}
       <div className="flex text-white">
         <div>
           <Navbar />
@@ -56,7 +57,7 @@ export default function Home() {
           />
         </div>
       </div>
-      {/* About */}
+      {/* aboutus */}
       <div className="pl-44 justify-center items-center p-24">
         <h1 className="text-5xl font-bold ">About Us</h1>
       </div>
