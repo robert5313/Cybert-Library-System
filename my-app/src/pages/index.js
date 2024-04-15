@@ -7,6 +7,13 @@ import Shape2 from "../assets/images/Shape2.png";
 import Shape3 from "../assets/images/Shape3.png";
 import Book3 from "../assets/images/Book3.jpg";
 import Book4 from "../assets/images/Book4.jpg";
+import Nov1 from "../assets/images/Nov1.jpg";
+import Nov2 from "../assets/images/Nov2.jpg";
+import Nov3 from "../assets/images/Nov3.jpg";
+import Nov4 from "../assets/images/Nov4.jpg";
+import Nov5 from "../assets/images/Nov5.jpg";
+import Nov6 from "../assets/images/Nov6.jpg";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -98,7 +105,13 @@ export default function Home() {
         <h1 className="  text-center text-5xl font-semibold">Products</h1>
         <p></p>
         <div className=" flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
-          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-96 h-72  p-4 ">
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-64 h-72  p-4 ">
+            <Image src={Nov1}
+            width={180}
+            height={100}
+            className="pl-6 justify-center items-center"
+            alt="book"
+            />
            </div>
            <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-96 h-72  p-4 ">
            </div>
