@@ -13,6 +13,12 @@ import Nov3 from "../assets/images/Nov3.jpg";
 import Nov4 from "../assets/images/Nov4.jpg";
 import Nov5 from "../assets/images/Nov5.jpg";
 import Nov6 from "../assets/images/Nov6.jpg";
+import Nov7 from "../assets/images/Nov7.jpg";
+import Nov8 from "../assets/images/Nov8.jpg";
+import Nov9 from "../assets/images/Nov9.jpg";
+
+
+
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -104,8 +110,8 @@ export default function Home() {
       <div className="pt-24">
         <h1 className="  text-center text-5xl font-semibold">Products</h1>
         <p></p>
-        <div className=" flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
-          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
+        <div className=" flex pl-24   pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
             <Image src={Nov1}
             width={180}
             height={100}
@@ -114,7 +120,7 @@ export default function Home() {
             />
             <p className="text-black pt-2 pl-6">The Girl Who<br/> Knew Too Much.</p>
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
            <Image src={Nov2}
             width={180}
             height={100}
@@ -122,7 +128,7 @@ export default function Home() {
             alt="book"
             />
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
            <Image src={Nov3}
             width={180}
             height={100}
@@ -130,7 +136,7 @@ export default function Home() {
             alt="book"
             />
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
            <Image src={Nov4}
             width={180}
             height={100}
@@ -144,7 +150,7 @@ export default function Home() {
            </div>
            {/* sec 2 */}
            <div className=" flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
            <Image src={Nov5}
             width={180}
             height={100}
@@ -152,7 +158,7 @@ export default function Home() {
             alt="book"
             />
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
            <Image src={Nov6}
             width={180}
             height={100}
@@ -160,16 +166,16 @@ export default function Home() {
             alt="book"
             />
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
-           <Image src={Nov6}
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+           <Image src={Nov7}
             width={180}
             height={100}
             className="pl-6 justify-center items-center"
             alt="book"
             />
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 ">
-           <Image src={Nov6}
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+           <Image src={Nov8}
             width={180}
             height={100}
             className="pl-6 justify-center items-center"
