@@ -101,7 +101,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="pt-20">
+      <div className="pt-24">
         <h1 className="  text-center text-5xl font-semibold">Products</h1>
         <p></p>
         <div className=" flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
@@ -113,9 +113,45 @@ export default function Home() {
             alt="book"
             />
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-96 h-72  p-4 ">
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-64 h-72  p-4 ">
+           <Image src={Nov2}
+            width={180}
+            height={100}
+            className="pl-6 justify-center items-center"
+            alt="book"
+            />
            </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-96 h-72  p-4 ">
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-64 h-72  p-4 ">
+           <Image src={Nov3}
+            width={180}
+            height={100}
+            className="pl-6 justify-center items-center"
+            alt="book"
+            />
+           </div>
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-64 h-72  p-4 ">
+           <Image src={Nov4}
+            width={180}
+            height={100}
+            className="pl-6 justify-center items-center"
+            alt="book"
+            />
+           </div>
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-64 h-72  p-4 ">
+           <Image src={Nov5}
+            width={180}
+            height={100}
+            className="pl-6 justify-center items-center"
+            alt="book"
+            />
+           </div>
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-64 h-72  p-4 ">
+           <Image src={Nov6}
+            width={180}
+            height={100}
+            className="pl-6 justify-center items-center"
+            alt="book"
+            />
            </div>
            </div>
       </div>
