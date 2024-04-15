@@ -97,6 +97,14 @@ export default function Home() {
       <div className="pt-20">
         <h1 className="  text-center text-5xl font-semibold">Products</h1>
         <p></p>
+        <div className=" flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-96 h-72  p-4 ">
+           </div>
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-96 h-72  p-4 ">
+           </div>
+           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-96 h-72  p-4 ">
+           </div>
+           </div>
       </div>
     </section>
   );
