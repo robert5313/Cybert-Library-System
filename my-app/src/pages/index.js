@@ -58,17 +58,33 @@ export default function Home() {
         </div>
       </div>
       {/* aboutus */}
-      <div className="pl-44 justify-center items-center p-24">
-        <h1 className="text-5xl font-bold ">About Us</h1>
-      </div>
-      <div className="flex pt-8 flex-col min-h-screen w-full pl-24">
+      <div className="flex pt-28">
+      <div className="  pl-14">
         {/* Image to the left */}
         <Image src={Book3}
-        width={460}
-        height={460}
+        width={660}
+        height={560}
+        className="rounded-xl"
         alt="book img"
         
         />
+      </div>
+      <div className="pl-44 justify-center items-center ">
+        <h1 className="text-5xl font-bold ">About Us</h1>
+        <p>Our new library is a vibrant hub of knowledge and community engagement.<br/> Nestled in the heart of our town, 
+          it stands as a beacon of learning and discovery.<br/> With its modern architecture and inviting interior, the library
+           welcomes visitors<br/> of all ages to explore its extensive collection of books, periodicals, and digital resources.<br/>
+            From classic literature to the latest bestsellers, there is something to captivate every<br/> reader's interest. 
+            The library also offers state-of-the-art technology, including<br/> computer stations and high-speed internet access,
+             ensuring everyone can benefit<br/> from its educational offerings.
+
+
+
+
+
+
+</p>
+      </div>
       </div>
     </section>
     
