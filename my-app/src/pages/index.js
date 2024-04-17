@@ -17,10 +17,6 @@ import Nov7 from "../assets/images/Nov7.jpg";
 import Nov8 from "../assets/images/Nov8.jpg";
 import Nov9 from "../assets/images/Nov9.jpg";
 
-
-
-
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -112,80 +108,89 @@ export default function Home() {
         <p></p>
         <div className=" flex pl-24   pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
-            <Image src={Nov1}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+            <Image
+              src={Nov1}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-            <p className="text-black pt-2 pl-6">The Girl Who<br/> Knew Too Much.</p>
-           </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
-           <Image src={Nov2}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+            <p className="text-black pt-2 pl-6">
+              The Girl Who
+              <br /> Knew Too Much.
+            </p>
+          </div>
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105 ">
+            <Image
+              src={Nov2}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-           </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
-           <Image src={Nov3}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+             <p className="text-black pt-2 pl-6">
+              The Subtitle Of
+              <br /> Not Giving A F***.
+            </p>
+          </div>
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+            <Image
+              src={Nov3}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-           </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
-           <Image src={Nov4}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+          </div>
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+            <Image
+              src={Nov4}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-           </div>
-           
-          
-           
-           </div>
-           {/* sec 2 */}
-           <div className=" flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
-           <Image src={Nov5}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+          </div>
+        </div>
+        {/* sec 2 */}
+        <div className=" flex pl-24  pt-8  gap-8 flex-col   lg:flex-row md:flex-col   ">
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+            <Image
+              src={Nov5}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-           </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
-           <Image src={Nov6}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+          </div>
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+            <Image
+              src={Nov6}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-           </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
-           <Image src={Nov7}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+          </div>
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+            <Image
+              src={Nov7}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-           </div>
-           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
-           <Image src={Nov8}
-            width={180}
-            height={100}
-            className="pl-6 justify-center items-center"
-            alt="book"
+          </div>
+          <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
+            <Image
+              src={Nov8}
+              width={180}
+              height={100}
+              className="pl-6 justify-center items-center"
+              alt="book"
             />
-           </div>
-           
-         
-           
-           </div>
+          </div>
+        </div>
       </div>
     </section>
   );
