@@ -209,6 +209,10 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
+             <p className="text-black pt-2 pl-6">
+              Hooked
+             
+            </p>
           </div>
         </div>
       </div>
