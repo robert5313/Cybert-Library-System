@@ -142,8 +142,8 @@ export default function Home() {
               alt="book"
             />
              <p className="text-black pt-2 pl-6">
-              The Girl Who
-              <br /> Knew Too Much.
+             All The Light 
+              <br /> We Cannot See.
             </p>
           </div>
           <div className="flex flex-col bg-white rounded-lg  justify-center gap-4 w-72 h-96  p-4 transition-transform duration-300 transform hover:scale-105">
