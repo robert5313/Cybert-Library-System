@@ -154,6 +154,10 @@ export default function Home() {
               className="pl-6 justify-center items-center"
               alt="book"
             />
+             <p className="text-black pt-2 pl-6">
+              If Only I Had 
+              <br /> Told Her.
+            </p>
           </div>
         </div>
         {/* sec 2 */}
