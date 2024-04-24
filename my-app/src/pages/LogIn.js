@@ -1,8 +1,29 @@
 import React from "react";
 import Image from "next/image";
 import books2 from "../assets/images/books2.jpg";
-
+import axios from "axios";
 const LogIn = () => {
+  const router = useRouter();
+  const [loading, setLoading] = React.useState(false);
+  const [user, setUser] = React.useState({
+    email: "",
+    password: "",
+  });
+
+  const onLogin = async () => {
+    try {
+        setLoading(true);
+        const response = await axios.post("http://localhost:5000/api/login", user);
+        router.push("/");
+        
+    } catch (error:any) {
+        console.log("Login failed", error.message);
+        
+    }finally {
+        setLoading(false);
+    }
+}
+
   return (
     <div className=" flex p-36 h-40 w-full object-cover text-white font-serif">
       <div class="p-4 justify-center items-center">
@@ -26,6 +47,7 @@ const LogIn = () => {
           <input
             type="email"
             id="email"
+            onChange={(e) => setUser({...user, email: e.target.value})}
             required
             className="bg-white border pl-3 w-full border-black placeholder-black text-white  text-lg rounded-lg sm:w-[300px] lg:w-[428px] pt-2.5"
             placeholder="Your E-mail"
@@ -41,6 +63,8 @@ const LogIn = () => {
           <input
             type="password"
             id="password"
+            onChange={(e) => setUser({...user, password: e.target.value})}
+
             required
             className="bg-white border pl-3 w-full border-black placeholder-black text-gray  text-lg rounded-lg sm:w-[300px] lg:w-[428px] pt-2.5"
             placeholder="Your Password"
@@ -48,7 +72,8 @@ const LogIn = () => {
         </div>
         <div className="  pl-2">
           <button class="mt-4  bg-blue-500 hover:bg-blue-500 text-white font-bold py-2 px-40 lg:w-[428px]  rounded-xl justify-center items-center ">
-            LogIn
+            onClick={onLogin}
+            <Link href="/signup">Visit signup page</Link>
           </button>
         </div>
       </div>
