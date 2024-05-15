@@ -46,13 +46,18 @@ export default function Home() {
           </p>
           <div className="flex">
             <div className="pt-4 ">
+              {/* <button className="rounded-lg pt-3 pb-3 pr-5 pl-5 bg-black justify-center items-center whitespace-nowrap ">
+                <a href=" Signup"> Sign up</a>
+              </button> */}
+            </div>
+            <div className="pt-4 pl-4 ">
               <button className="rounded-lg pt-3 pb-3 pr-5 pl-5 bg-black justify-center items-center whitespace-nowrap ">
-                <a href=" Signup"> Sign Up</a>
+                <a href="SignUp">Sign Up</a>
               </button>
             </div>
             <div className="pt-4 pl-4 ">
               <button className="rounded-lg pt-3 pb-3 pr-5 pl-5 bg-black justify-center items-center whitespace-nowrap ">
-                <a href="LogIn">Log In</a>
+                <a href="Signin">Sign in</a>
               </button>
             </div>
           </div>

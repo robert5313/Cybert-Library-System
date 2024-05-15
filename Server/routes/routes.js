@@ -26,6 +26,7 @@ router.post('/register', async (req, res) => {
     });
 
     const result = await user.save();
+    console.log(result);
 
     //JWT Token
 
@@ -39,7 +40,7 @@ router.post('/register', async (req, res) => {
     })
 
     res.send({
-        message: "success"
+        message: `success ${result}`
     });
 
     // user.password = await bcrypt.hash(user.password, 10);
@@ -106,7 +107,7 @@ router.post('/login', async (req, res) => {
             })
 
             res.send({
-                message: "success"
+                data: `Welcome ${user.name} to Library Management System`
             });
         }
     }
